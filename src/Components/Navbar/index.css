@@ -1,0 +1,42 @@
+.navbar-container {
+  background-color: #2c0e3a;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.website-logo {
+  height: 40px;
+}
+.score-card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.score-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-right: 20px;
+  font-size: 15px;
+}
+.span-text {
+  color: #fec653;
+  font-size: 22px;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+.timer-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-right: 20px;
+}
