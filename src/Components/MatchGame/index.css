@@ -11,8 +11,22 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 767px) {
+  .game-play-body {
+    display: flex;
+    justify-content: start;
+    padding-top: 0px;
+  }
+}
 .carousel-img-list {
   padding-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-img-list {
+    width: 100%;
+    padding: 0px;
+  }
 }
 .tabs-container {
   display: flex;
@@ -20,6 +34,13 @@
   justify-content: space-around;
   padding-left: 0px;
   list-style-type: none;
+}
+@media screen and (max-width: 767px) {
+  .tabs-container {
+    width: 70%;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
 }
 .thumbnails-container {
   width: 500px;
@@ -29,11 +50,25 @@
   display: flex;
   list-style-type: none;
 }
+@media screen and (max-width: 767px) {
+  .thumbnails-container {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+}
 .game-body {
   padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .game-body {
+    padding: 15px;
+    width: 100%;
+  }
 }
 .game-over-body {
   display: flex;

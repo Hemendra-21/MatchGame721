@@ -7,6 +7,11 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 767px) {
+  .tab-btn {
+    font-size: 15px;
+  }
+}
 .selected-tab {
   color: #fec653;
   text-decoration: underline;

@@ -377,7 +377,6 @@ class MatchGame extends Component {
     return (
       <div className="app-container">
         <Navbar score={score} timeRemaining={timeRemaining} />
-
         <div className="game-body">
           {isGameActive && (
             <div className="game-play-body">{this.getGamePlayBody()}</div>
