@@ -346,7 +346,7 @@ class MatchGame extends Component {
 
   getGameOverBody = () => {
     const {score} = this.state
-    this.setState({timeRemaining: 0})
+
     return (
       <div className="game-result-body">
         <img
