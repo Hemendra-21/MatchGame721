@@ -5,7 +5,7 @@
 @media screen and (max-width: 767px) {
   .thumbnail-images {
     height: 80px;
-    width: 100%;
+    width: 400%;
   }
 }
 
@@ -20,7 +20,7 @@
 @media screen and (max-width: 767px) {
   .thumbnail-btn {
     height: 80px;
-    width: 85px;
+    width: 23%;
     padding: 0px;
   }
 }
