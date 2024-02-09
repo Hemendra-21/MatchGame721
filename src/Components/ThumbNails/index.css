@@ -4,8 +4,8 @@
 }
 @media screen and (max-width: 767px) {
   .thumbnail-images {
-    height: 60px;
-    width: 62px;
+    height: 80px;
+    width: 100%;
   }
 }
 
@@ -19,7 +19,8 @@
 }
 @media screen and (max-width: 767px) {
   .thumbnail-btn {
-    height: 60px;
-    width: 62px;
+    height: 80px;
+    width: 85px;
+    padding: 0px;
   }
 }
