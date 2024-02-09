@@ -80,10 +80,22 @@
   height: 500px;
   padding-bottom: 30px;
 }
+@media screen and (max-width: 767px) {
+  .game-over-body {
+    width: 100%;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: cover;
+    align-items: center;
+  }
+}
 .result-image {
   height: 175px;
 }
-
+@media screen and (max-width: 767px) {
+  .result-image {
+    height: 120px;
+  }
+}
 .play-again-btn {
   background-color: #cf60c8;
   display: flex;
@@ -98,6 +110,12 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .play-again-btn {
+    width: 120px;
+    font-size: 12px;
+  }
 }
 .game-result-body {
   display: flex;
